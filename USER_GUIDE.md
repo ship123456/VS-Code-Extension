@@ -1,7 +1,5 @@
 # Technical Documentation Generator
 
-![Technical Documentation Generator](images/dashboard_image.png)
-
 ## User Guide
 
 **Version:** 1.0
