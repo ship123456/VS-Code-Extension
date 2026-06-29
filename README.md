@@ -1,7 +1,7 @@
 
 # Technical Documentation Generator
 
-![Technical Documentation Generator](images/dashboard.png)
+![Technical Documentation Generator](images/dashboard_image.png)
 
 ## Table of Contents
 
