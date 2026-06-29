@@ -97,6 +97,8 @@ The extension generates templates for:
 - Form validation
 - Notification messages
 - Light & Dark theme support
+- Quick Command Palette integration
+- Standardized documentation templates
 
 ## Tech Stack
 
@@ -205,7 +207,7 @@ The project structure separates extension commands, reusable templates, utility 
 
 ## Architecture
 
-The extension follows a modular architecture where Visual Studio Code triggers extension commands, the command manager handles user actions, and the template engine generates Markdown documentation files.
+The extension follows a modular architecture where Visual Studio Code acts as the host environment. User commands are handled by the Command Manager, processed by the Documentation Generator, rendered through reusable templates, and finally written as Markdown files within the current workspace.
 
 ![Architecture Diagram](images/architecture_image.png)
 
@@ -246,7 +248,7 @@ Future releases may include:
 
 ## Contributing
 
-Contributions are welcome.
+Contributions are welcome. Please open an issue to discuss proposed changes or submit a pull request following the project's coding and documentation standards.
 
 ## License
 
