@@ -207,6 +207,8 @@ The project structure separates extension commands, reusable templates, utility 
 
 The extension follows a modular architecture where Visual Studio Code triggers extension commands, the command manager handles user actions, and the template engine generates Markdown documentation files.
 
+![Architecture Diagram](images/architecture_image.png)
+
 ## Security Considerations
 
 The extension follows recommended Visual Studio Code extension practices.
