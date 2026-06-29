@@ -2,7 +2,7 @@
 
 ![Technical Documentation Generator](images/dashboard_image.png)
 
-# User Guide
+## User Guide
 
 **Version:** 1.0
 
@@ -18,7 +18,7 @@
 - [User Interface](#user-interface)
 - [Generating Documentation](#generating-documentation)
 - [Available Templates](#available-templates)
-- [Generated Output](#generated-output)
+- [Generated Documentation](#generated-documentation)
 - [Managing Generated Files](#managing-generated-files)
 - [Tips & Best Practices](#tips--best-practices)
 - [Troubleshooting](#troubleshooting)
@@ -83,6 +83,8 @@ Search for the desired documentation command and press **Enter**.
 The extension dashboard includes:
 
 - Documentation Templates
+- Interactive Input Form
+- Documentation Preview
 - Recent Documents
 - Quick Actions
 - Search Templates
@@ -96,9 +98,11 @@ To generate documentation:
 
 1. Open the Command Palette.
 2. Select a documentation template.
-3. Enter the required project information.
-4. Review the generated content.
-5. Save the Markdown document.
+3. Complete the interactive form by entering the required project information.
+4. Generate the documentation.
+5. Review the generated Markdown content.
+6. Copy the generated content to the clipboard if needed.
+7. Save the Markdown file to your project.
 
 ## Available Templates
 
@@ -112,7 +116,7 @@ To generate documentation:
 | Troubleshooting Guide | Common issues and solutions |
 | Release Notes | Product release summary |
 
-## Generated Output
+## Generated Documentation
 
 Generated documentation:
 
@@ -121,6 +125,8 @@ Generated documentation:
 - Can be edited manually
 - Supports version control
 - Follows a consistent document structure
+- Can be copied directly to the clipboard
+- Can be saved as a Markdown file within the project
 
 ## Managing Generated Files
 
@@ -172,3 +178,7 @@ No. Documentation is generated locally.
 ### Can I use the generated documentation on GitHub?
 
 Yes. The extension generates standard Markdown files that are fully compatible with GitHub.
+
+### Can I customize the generated documentation?
+
+Yes. All generated Markdown documents can be edited, expanded, and formatted using Visual Studio Code before publishing or committing them to a repository.
