@@ -66,6 +66,8 @@ technical-documentation-generator/
 └── CHANGELOG.md
 ```
 
+The `src/extension.ts` file serves as the extension entry point, registering commands and managing the extension lifecycle. The `src/webview.ts` file is responsible for rendering the interactive user interface used to collect project information before generating documentation.
+
 The project structure separates commands, reusable templates, utility functions, providers, and user interface components, making the extension easier to maintain and extend.
 
 ## Technology Stack
