@@ -1,0 +1,52 @@
+# Changelog
+
+All notable changes to this project are documented in this file.
+
+The format follows the principles of Keep a Changelog and Semantic Versioning.
+
+---
+
+## [1.0.0] - 2026-06
+
+### Added
+
+- Initial release of the Technical Documentation Generator extension.
+- Support for generating README documentation.
+- Support for generating User Guides.
+- Support for generating API Documentation.
+- Support for generating Technical Overviews.
+- Support for generating Installation Guides.
+- Support for generating Troubleshooting Guides.
+- Support for generating Release Notes.
+- Interactive documentation generation workflow.
+- Markdown output support.
+- Documentation preview.
+- Searchable documentation templates.
+- Command Palette integration.
+- Reusable documentation templates.
+- Input validation.
+- Notification messages.
+- Light and Dark theme support.
+
+### Documentation
+
+- Added README.
+- Added User Guide.
+- Added Installation Guide.
+- Added Technical Overview.
+- Added API Documentation.
+- Added Troubleshooting Guide.
+- Added Release Notes.
+- Added Contributing Guide.
+- Added License.
+
+### Fixed
+
+- Initial release.
+
+### Known Limitations
+
+- Markdown export only.
+- Local file generation.
+- No cloud synchronization.
+- No AI-assisted documentation generation.
